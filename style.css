@@ -83,6 +83,7 @@ img {
 	display: block;
 	overflow: auto;
 	margin-left: 0px;
+	text-align: justify;
 }
 
 #footer {
