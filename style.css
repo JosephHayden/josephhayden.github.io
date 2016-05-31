@@ -74,13 +74,15 @@ img {
 
 #bio img{
 	float: left;
-	padding-bottom: 2%;
+	margin-bottom: 2%;
+	border: 3px solid black;
 }
 
 #bio p {
 	padding-left: 5%;
-	width: 65%;
-	float: right;
+	display: block;
+	overflow: auto;
+	margin-left: 0px;
 }
 
 #footer {
