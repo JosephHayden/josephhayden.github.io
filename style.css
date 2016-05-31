@@ -1,0 +1,100 @@
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+}
+
+body {
+	margin: 0;
+	min-height: 100%;
+	background: #bcd5d1;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+}
+
+img {
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#content {
+	padding-left:5%;
+	padding-right:5%;
+	padding-top:1%;
+	padding-bottom:1%;
+	background: #ba9077;
+	border-radius: 10px;
+}
+
+.navbar-link {
+	padding: 10px;
+	background: #5a5c51;
+	color: white;
+	border: 1px solid black;
+}
+
+#container {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#page-header {
+	background: #1d2120;
+	margin-left: auto;
+	margin-right:auto;
+	text-align: center;
+	margin-top: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #BCD5D1;
+}
+
+#page-header a {
+	color: white;
+	text-decoration: none;
+}
+
+#page-header a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+#navbar {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 3%;
+}
+
+#bio {
+	height: 100%;
+	overflow: auto;
+}
+
+#bio img{
+	float: left;
+	padding-bottom: 2%;
+}
+
+#bio p {
+	padding-left: 5%;
+	width: 65%;
+	float: right;
+}
+
+#footer {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 2%;
+	background: #1d2120;
+	color: white;
+}
+
+#footer a:visited {
+	color: #FFFFFF;
+}
+
+#footer a:link {
+	color: #FFFFFF;
+}
